@@ -1,0 +1,5 @@
+<div data-options="dxView : { name: 'SecureInner', title: 'Secure Inner View', secure: true } " >
+    <div  data-options="dxContent : { targetPlaceholder: 'content' } " >
+        <p style="padding: 5px">The Secure Inner (not root) view is accessible only if you are logged on.</p>
+    </div>
+</div>

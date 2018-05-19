@@ -1,0 +1,6 @@
+<div data-options="dxView : { name: 'SecureRoot', title: 'Secure Root View', secure: true } " >
+    <div  data-options="dxContent : { targetPlaceholder: 'content' } " >
+        <p style="padding: 5px">The 'Secure Root' view is accessible only if your are logged on.</p>
+        <div style="margin: 5px"data-bind="dxButton: { text: 'Show secure inner view', clickAction: '#SecureInner' }"></div>
+    </div>
+</div>

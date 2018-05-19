@@ -1,0 +1,20 @@
+﻿html, 
+body,
+.dx-viewport {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logon-buttons {
+    padding: 10px;
+    text-align: center;
+}
+
+.logon-buttons .dx-button  {
+    margin: 0 10px !important;
+}
+

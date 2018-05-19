@@ -1,0 +1,25 @@
+<div data-options="dxView : { name: 'LogOnPopup' } " >
+    <div data-bind="dxPopup: { visible: visible, fullScreen: true, showTitle: true, title: 'Log On' }">
+        <div>
+            <h2>Welcome</h2>
+            <div class="dx-fieldset">
+                <div class="dx-field">
+                    <div class="dx-field-label">E-mail</div>
+                    <div class="dx-field-value">
+                        <div data-bind="dxTextBox:{ value: email }"></div>
+                    </div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">Password</div>
+                    <div class="dx-field-value">
+                        <div data-bind="dxTextBox:{ mode: 'password', value: password }"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="logon-buttons">
+                <div data-bind="dxButton: { text: 'Log On', clickAction: logOn }"></div>
+                <div data-bind="dxButton: { text: 'Cancel', clickAction: close }"></div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,6 @@
+<div data-options="dxView : { name: 'home', title: 'Home' } " >
+    <div class="home-view"  data-options="dxContent : { targetPlaceholder: 'content' } " >
+        <p style="padding: 5px">The 'Home' view is accessible without logging on.</p>
+        <div style="margin: 5px" data-bind="dxButton: { text: 'Show secure inner view', clickAction: '#SecureInner' }"></div>
+    </div>
+</div>
