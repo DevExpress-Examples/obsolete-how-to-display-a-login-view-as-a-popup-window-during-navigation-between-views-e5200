@@ -1,12 +1,4 @@
-<!-- default file list -->
-*Files to look at*:
-
-<!-- default file list end -->
 # (Obsolete) How to display a login view as a popup window during navigation between views
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e5200)**
-<!-- run online end -->
-
 
 <p><strong>Starting with 14.2, please use <a href="http://js.devexpress.com/Documentation/Tutorial/SPA_Framework/Logon_When_Navigating_to_a_View/?version=14_2#Logon_When_Navigating_to_a_View">this</a> example.<br />This approach can be applied starting with 13.2.9. <br /> </strong><br /> This example demonstrates how to check whether the user is logged in and display a login view when it is necessary during navigation. </p>
 <p>It is necessary to perform the following steps to accomplish this task:</p>
